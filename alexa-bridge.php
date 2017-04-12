@@ -81,7 +81,7 @@ if ( 'amzn1.ask.skill.xxxsecretxxx' == $post->session->application->applicationI
         break;
 
       default:
-        $response = getResponseArray('I\'m sorry, but I dont know how to handle the command ' . $post->request->intent->slots->command->value);
+        $response = getResponseArray('I\'m sorry, but I dont know how to handle the command ' . $post->request->intent->name);
         break;
 
     }
