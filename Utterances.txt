@@ -1,0 +1,25 @@
+GALLERYON Turn on gallery
+GALLERYON Turn the gallery on
+GALLERYOFF Turn off gallery
+GALLERYOFF Turn the gallery off
+NIGHTMODE Turn on night mode
+LIVINGROOMCORNERON Turn on livingroom corner
+LIVINGROOMCORNERON Turn livingroom corner on
+LIVINGROOMCORNERON Turn on livingroom corner lights
+LIVINGROOMCORNERON Turn livingroom corner lights on
+LIVINGROOMCORNEROFF Turn off livingroom corner
+LIVINGROOMCORNEROFF Turn livingroom corner off
+LIVINGROOMCORNEROFF Turn off livingroom corner lights
+LIVINGROOMCORNEROFF Turn livingroom corner lights off
+TVON Turn on TV
+TVON Turn TV on
+TVON set TV on
+TVOFF Turn off TV
+TVOFF Turn TV off
+TVOFF set TV off
+AMPLIFIERON Turn on amplifier
+AMPLIFIERON Turn amplifier on
+AMPLIFIERON set amplifier on
+AMPLIFIEROFF Turn off amplifier
+AMPLIFIEROFF Turn amplifier off
+AMPLIFIEROFF set amplifier off
