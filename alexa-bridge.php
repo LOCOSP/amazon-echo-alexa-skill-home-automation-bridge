@@ -11,10 +11,6 @@ function getResponseArray($value) {
         'card' => array(
           'text' => 'OK, ' . $value,
           'title' => 'AMAZON',
-           'image' => array(
-             'smallImageUrl' => '$myurl/alexaCardImage.php?size=small&image=default',
-             'largeImageUrl' => '$myurl/alexaCardImage.php?size=large&image=default'
-           ),
            'type' => 'Standard',
         ),
         'shouldEndSession' => true
@@ -40,12 +36,12 @@ if ( 'amzn1.ask.skill.xxxsecretxxx' == $post->session->application->applicationI
         break;
 
       case 'LIVINGROOMCORNERON':
-        $response = getResponseArray('Livingroom cornner on');
+        $response = getResponseArray('Livingroom corner on');
         include '/var/www/html/interface/tasker/lights/CornnerLightOn.php';
         break;
 
       case 'LIVINGROOMCORNEROFF':
-        $response = getResponseArray('Livingroom cornner off');
+        $response = getResponseArray('Livingroom corner off');
         include '/var/www/html/interface/tasker/lights/CornnerLightOff.php';
         break;
 
